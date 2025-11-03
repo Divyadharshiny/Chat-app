@@ -1,0 +1,26 @@
+# Ignore compiled class files
+*.class
+
+# Ignore Maven / Gradle build directories
+target/
+build/
+
+# Ignore Tomcat temp files
+logs/
+temp/
+work/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.project
+*.classpath
+*.settings/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore your WAR file (if generated)
+*.war
