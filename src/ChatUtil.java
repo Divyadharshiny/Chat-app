@@ -7,8 +7,8 @@ import org.mindrot.jbcrypt.BCrypt;
 public class ChatUtil
 {
   private static String url = "jdbc:mysql://localhost:3306/chat_app";
-  private static String root = "test";
-  private static String password = "WeeMee@#5588";
+  private static String root = "test";                        //Your root
+  private static String password = " ";                       //Your password
   
   public static Connection getConnection() throws SQLException
   {
